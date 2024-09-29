@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multi-tier Enterprise Application Architecture</title>
+        <h1>Multi-tier Enterprise Application Architecture</h1>
+    </head>
+    <body>
+        <p>A multi-tier enterprise application consists of two types of objects: application logic components and persistent data objects. Application logic components represent actions and define methods that perform common tasks such as calculating the order price, customer credit card billing and so on. Session beans model the application logic components as they contain the logic to perform the application tasks.
+            It is easy and simple to manage the business data present in large organizations as objects rather than as relational rows on a database. Business data when treated as objects are easy to handle and manage as they are compact in nature. 
+            Entities are not associated with only EJBs and can be used in J2SE environment. The differences between an entity and a session bean are as follows:
+            </p>
+            <ul>
+                <li>Entities have client-visibility and a persistent identity that is distinct from their object reference  </li>
+                <li>Each entity is distinct from the other because of their identities. Clients can use identities to pass the reference of  an entity to other applications. However, this is not possible with session beans</li>
+                <li>Entity bean cannot be accessed remotely, whereas session beans can be accessed locally as well as remotely. </li>    
+                <li>Entity's lifetime is not dependent on the application's lifetime. Entity bean have a much longer timeframe than a client's session as  it depends on how long the data is present in the database.</li> 
+                <li>Entities represent data in a storage that is permanent as well as fault-tolerant and hence, they are long lasting and can survive application server or database crash. This data can be reconstructed in the memory. Hence, it can be said that entity is an in-memory representation of persistent data </li>
+
+            </ul>
+        <a href="http://w3schools.com">
+                Click here</a>
+        <body style="background-color: cadetblue;"></body>
+    </body>
+    </body>
+</html>
